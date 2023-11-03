@@ -11,3 +11,6 @@ header {
   background-image: url(./img/rocket.svg);
   background-size: contain;
 }
+h1 {
+  color: #BB3C1C;
+}
