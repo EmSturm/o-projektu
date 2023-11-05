@@ -1,20 +1,15 @@
-import { useState } from 'react';
-import './style.css';
-
+import { useState } from "react";
 export const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
       <button
-        className={!isOpen ? 'hamburger' : 'hamburger hamburger--otevrene'}
         onClick={() => {
-          setIsOpen(!isOpen);
+          setIsOpen(true);
         }}
       >
-        <span></span>
-        <span></span>
-        <span></span>
+        Hamburger menu hear
       </button>
       {isOpen ? (
         <nav>
