@@ -16,6 +16,8 @@
   background-color: currentColor;
   transition-property: opacity, transform;
   transition-duration: 0.2s;
+  color: #FFEFD2;
+
 }
 
 .hamburger span:nth-child(1) {
@@ -36,4 +38,14 @@
 
 .hamburger--otevrene span:nth-child(3) {
   transform: rotate(-45deg);
+}
+
+.hamburger-nav {
+  color: #FFEFD2;
+}
+
+.hamburger-nav a {
+  color: #FFEFD2;
+  font-weight: bold;
+  text-decoration: none;
 }
