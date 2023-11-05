@@ -1,4 +1,6 @@
 import { useState } from "react";
+import './style.css';
+
 export const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -6,10 +8,10 @@ export const Menu = () => {
     <div>
       <button
         onClick={() => {
-          setIsOpen(true);
+          setIsOpen(!isOpen);
         }}
       >
-        Hamburger menu hear
+       {isOpen ? 'Obrázek křížku' : 'Obrázek hamburgru'} 
       </button>
       {isOpen ? (
         <nav>

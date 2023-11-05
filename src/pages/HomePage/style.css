@@ -14,3 +14,7 @@ header {
 h1 {
   color: #BB3C1C;
 }
+
+button {
+  border-radius: 10px;
+}
