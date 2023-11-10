@@ -17,7 +17,7 @@ export const Menu = () => {
         <span></span>
       </button>
       {isOpen ? (
-        <nav>
+        <nav className="hamburger-nav">
           <ul>
             <li>
             <Link to="/aboutus"><button>O autorkách</button></Link>
@@ -31,5 +31,8 @@ export const Menu = () => {
     </div>
   );
 };
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 299ce27b1b046f9716366f5a1b9ec16fb3191b4b
