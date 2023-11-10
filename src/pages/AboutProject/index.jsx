@@ -1,9 +1,11 @@
-import "./style.css";
+import './style.css';
 
+import { Header } from '../../components/Header';
 
 export const AboutProject = () => {
   return (
-    <div>
+    <>
+      <Header></Header>
       <h1>O projektu</h1>
       <p>
         V rámci Digitální akademie Czechitas, jsme vytvořili tento informativní
@@ -11,6 +13,6 @@ export const AboutProject = () => {
       </p>
       <br />
       <h3>Mentoři: Filip Jirská a Nela Letochová</h3>
-    </div>
+    </>
   );
 };

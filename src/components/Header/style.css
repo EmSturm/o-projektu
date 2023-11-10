@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #BB3C1C;
+  text-align: left;
+  border-radius: 0 0 20px 20px;
+}
+
+.logo {
+  margin: 20px;
+  background-image: url(./img/logo.png);
+  width: 100px;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.container--hamburger-menu {
+  padding: 20px;
+}
