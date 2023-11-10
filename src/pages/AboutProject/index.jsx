@@ -1,5 +1,6 @@
 import "./style.css";
 
+
 export const AboutProject = () => {
   return (
     <div>
@@ -9,7 +10,7 @@ export const AboutProject = () => {
         web o našem závěrečném projektu.
       </p>
       <br />
-      <h3>Mntoři: Filip Jirská a Nela Letochová</h3>
+      <h3>Mentoři: Filip Jirská a Nela Letochová</h3>
     </div>
   );
 };

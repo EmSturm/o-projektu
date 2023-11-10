@@ -20,10 +20,10 @@ export const Menu = () => {
         <nav>
           <ul>
             <li>
-              <a href="./src/pages/AboutUs">O nás</a>
+            <Link to="/aboutus"><button>O autorkách</button></Link>
             </li>
             <li>
-              <a href="./src/pages/AboutProject">O projektu</a>
+            <Link to="/aboutproject"><button>O projektu</button></Link>
             </li>
           </ul>
         </nav>
@@ -31,4 +31,5 @@ export const Menu = () => {
     </div>
   );
 };
+
 
