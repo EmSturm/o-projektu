@@ -1,5 +1,5 @@
 import './style.css';
-
+import { MediaLinks } from '../../components/MediaLinks';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 
@@ -27,7 +27,13 @@ export const AboutUs = () => {
             věcem. Kultura pro mě vždy byla velmi důležitá a jsem ráda, že i náš
             závěrečný projekt ji bude hravým způsobem propagovat!
           </p>
-        </div>{' '}
+          <MediaLinks
+            githubLink={'https://github.com/justinakab'}
+            linkedinLink={
+              'https://www.linkedin.com/in/justina-kabelkov%C3%A1-660b781ba/'
+            }
+          ></MediaLinks>
+        </div>
       </div>
 
       <Footer></Footer>
