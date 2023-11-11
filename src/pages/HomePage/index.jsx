@@ -2,6 +2,7 @@ import './style.css';
 import { Link } from 'react-router-dom';
 import './style.css';
 import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
 
 export const HomePage = () => {
   return (
@@ -36,9 +37,7 @@ export const HomePage = () => {
           <div className="image"></div>
         </div>
       </main>
-      <footer>
-        <p>Czechitas, Digitální akademie: Web</p>
-      </footer>
+      <Footer></Footer>
     </>
   );
 };

@@ -6,7 +6,7 @@ export const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div className="hamburgerMenu">
       <button
         className={!isOpen ? 'hamburger' : 'hamburger hamburger--otevrene'}
         onClick={() => {

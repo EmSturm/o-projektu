@@ -11,10 +11,11 @@ header {
   margin: 20px;
   background-image: url(./img/logo.png);
   width: 100px;
-  height: auto;
+  height: 50px;
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
+
 }
 
 .container--hamburger-menu {

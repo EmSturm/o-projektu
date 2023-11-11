@@ -1,6 +1,7 @@
 import './style.css';
 
 import { Header } from '../../components/Header';
+import { Footer } from '../../components/Footer';
 
 export const AboutUs = () => {
   return (
@@ -27,6 +28,7 @@ export const AboutUs = () => {
         corporis nulla porro voluptate dolorem? Sapiente rem amet quos
         accusamus.
       </p>
+      <Footer></Footer>
     </>
   );
 };
